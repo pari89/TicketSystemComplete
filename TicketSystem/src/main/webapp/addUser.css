@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --purple: rgb(136, 96, 208);
+    --lavender: rgb(193, 200, 228);
+    --light-blue: rgb(132, 206, 235);
+    --blue: rgb(86, 128, 233);
+}
+body{
+    margin: 0;
+}
+.toolbar{
+    background-color: var(--blue);
+    width:auto;
+    height: 65px;
+    text-align: right;
+    border: 12.5px;
+    padding: 12.5px 50px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.t-button{
+    background-color: var(--light-blue);
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: var(--blue);
+    border: none;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500 ;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(132, 206, 235, 0.4) ;
+    transition: opacity 0.15s;
+}
+.t-button:hover{
+    opacity: 0.8;
+}
+.t-button:active{
+    opacity: 0.3;
+}
+.text1{
+	text-align: left;
+	font-weight: 700;
+    font-size: 24;
+}
+.card{
+    margin: auto;
+    width: 450px;
+    background-color: var(--light-blue);
+    box-shadow: 6px  6px 6px 6px rgba(132, 206, 235, 0.4)  ;
+    text-align: left;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600 ;
+    font-size: 16px;
+    padding: 30px 50px 70px 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 24;
+    text-align: CENTER;
+    color: var(--blue);
+}
+.t-box{
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+    border:none;
+    font-family: 'Sora', sans-serif;
+    margin-top: 10px;
+}
+.b-button{
+    background-color: var(--blue);
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: var(--light-blue);
+    border: none;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500 ;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(86, 128, 233, 0.4) ;
+    transition: opacity 0.15s;
+    text-align:center;
+    display: block;
+    margin: 0 auto ;
+}
+.b-button:hover{
+    opacity: 0.8;
+}
+.b-button:active{
+    opacity: 0.3;
+}

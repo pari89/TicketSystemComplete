@@ -1,0 +1,124 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --purple: rgb(136, 96, 208);
+    --purple-l : rgba(136, 96, 208,0.8);
+    --lavender: rgb(193, 200, 228);
+    --light-blue: rgb(132, 206, 235);
+    --blue: rgb(86, 128, 233);
+    --mid-blue: rgb(90, 185, 234);
+}
+body{
+    margin: 0;
+}
+.toolbar{
+    background-color: var(--blue);
+    width:auto;
+    height: 65px;
+    text-align: right;
+    border: 12.5px;
+    padding: 12.5px 50px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.t-button{
+    background-color: var(--light-blue);
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: var(--blue);
+    border: none;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500 ;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(132, 206, 235, 0.4) ;
+    transition: opacity 0.15s;
+}
+.t-button:hover{
+    opacity: 0.8;
+}
+.t-button:active{
+    opacity: 0.3;
+}
+.card{
+    margin: auto;
+    width: 450px;
+    background-color: var(--light-blue);
+    box-shadow:  inset 0 0 60px rgba(86, 128, 233, 0.4);
+    text-align: left;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600 ;
+    padding: 50px 50px 100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 24;
+    text-align: CENTER;
+    color: var(--blue);
+    margin-bottom: 50px;
+}
+.tD-box{
+    width: 350px;
+    height: 65px;
+    border-radius: 4px;
+    border:none;
+    font-family: 'Sora', sans-serif;
+    margin-top: 10px;
+}
+.t-box{
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+    border:none;
+    font-family: 'Sora', sans-serif;
+    margin-top: 10px;
+}
+
+.text1{
+	text-align: left;
+	font-weight: 700;
+    font-size: 24;
+}
+.b-button{
+    background-color: var(--blue);
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: var(--light-blue);
+    border: none;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500 ;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(86, 128, 233, 0.4) ;
+    transition: opacity 0.15s;
+    display: block;
+    margin: 0 auto ;
+}
+.b-button:hover{
+    opacity: 0.8;
+}
+.b-button:active{
+    opacity: 0.3;
+}
+th{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 24;
+    text-align: left;
+    background-color: var(--purple);
+    color: white;
+    padding:20px;
+}
+tr,td{
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 24;
+    text-align: left;
+    color: var(--purple);
+    padding:15px 20px;
+    border-color:rgba(136, 96, 208, 0.4);
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}

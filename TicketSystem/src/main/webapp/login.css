@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --purple: rgb(136, 96, 208);
+    --lavender: rgb(193, 200, 228);
+    --light-blue: rgb(132, 206, 235);
+    --blue: rgb(86, 128, 233);
+}
+body{
+    margin: 0;
+}
+.toolbar{
+    background-color: var(--purple);
+    width:auto;
+    height: 65px;
+    text-align: right;
+    border: 12.5px;
+    padding: 12.5px 50px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.text1{
+	text-align: left;
+	font-weight: 700;
+    font-size: 24;
+}
+h1{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 24;
+    text-align: CENTER;
+    color: var(--purple);
+}
+
+.t-button{
+    background-color: var(--lavender);
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: var(--purple);
+    border: none;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500 ;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(193, 200, 228, 0.4) ;
+    transition: opacity 0.15s;
+}
+.t-button:hover{
+    opacity: 0.8;
+}
+.t-button:active{
+    opacity: 0.3;
+}
+.card{
+    margin: auto;
+    width: 450px;
+    background-color: var(--lavender);
+    box-shadow: 6px  6px 6px 6px rgba(193, 200, 228, 0.4) ;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600 ;
+    font-size: 16px;
+    padding: 30px 50px 70px 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.t-box{
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+    border:none;
+    margin-top: 10px;
+}
+.b-button{
+    background-color: var(--purple);
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: var(--lavender);
+    border: none;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500 ;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(136, 96, 208, 0.4) ;
+    transition: opacity 0.15s;
+    text-align:center;
+    display: block;
+    margin: 0 auto ;
+}
+.b-button:hover{
+    opacity: 0.8;
+}
+.b-button:active{
+    opacity: 0.3;
+}
